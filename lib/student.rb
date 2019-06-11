@@ -10,5 +10,6 @@ class Student
   attr_reader :id 
   def create_table
     sql <<-SQL 
+    CREATE TABLE 
   end 
 end
