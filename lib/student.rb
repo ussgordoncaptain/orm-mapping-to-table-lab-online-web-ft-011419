@@ -6,5 +6,9 @@ class Student
     @name = name 
     @grade = grade
   end
-  
+  attr_accessor :name, :grade
+  attr_reader :id 
+  def create_table
+    sql <<-SQL 
+  end 
 end
